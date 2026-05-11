@@ -17,3 +17,9 @@ just install this package ---> npm i mongoose
 
 
 run  --> node filename ---> node app.js
+API is always created on server
+
+
+
+npx nodemon app.js   ---> this command checks on every update 
+we dont need to run node app.js all time after updation in code
