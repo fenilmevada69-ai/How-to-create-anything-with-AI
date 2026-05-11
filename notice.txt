@@ -1,1 +1,19 @@
-Mongo 
+npm install express 
+create Server(express)
+start Server(Listen method)
+
+
+---MongoDB---
+Community edition -> our database
+Compass           -> to view and manage our data
+
+Frontend 
+Backend -> Server + Database(mongo)
+
+
+Mongoose to connect server and database
+just install this package ---> npm i mongoose
+
+
+
+run  --> node filename ---> node app.js
