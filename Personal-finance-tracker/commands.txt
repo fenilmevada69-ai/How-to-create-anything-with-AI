@@ -1,0 +1,26 @@
+1.-----Setup------
+npx create-vite-app
+mkdir server
+cd server
+npm init -y 
+
+
+2.
+npm install express mongoose dotenv cors bcryptjs jsonwebtoken 
+express --> for server
+mongoose ---> for database 
+dotenv ---> environments files
+cors ---> connects frontend and backend
+bcryptjs & JWT --> for authentication
+
+3. add this in server/package.json
+"scripts" : {
+    "start": "node index.js",   npm run start will run node index.js 
+    "dev": "nodemon index.js"   npm run dev will run nodemon index.js
+}
+
+
+4. run this in server folder
+touch index.js
+mkdir config controllers models routes middleware
+touch config/db.js
